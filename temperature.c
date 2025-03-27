@@ -1,27 +1,27 @@
 #include <stdio.h>
 #include "temperature.h"
 
-// convert celsius to fahrenheit
+//convert celsius to fahrenheit
 float celsius_to_fahrenheit(float celsius) {
     return (celsius * 9.0 / 5.0) + 32.0;
 }
 
-// convert fahrenheit to celsius
+//convert fahrenheit to celsius
 float fahrenheit_to_celsius(float fahrenheit) {
     return (fahrenheit - 32.0) * 5.0 / 9.0;
 }
 
-// convert celsius to kelvin
+//convert celsius to kelvin
 float celsius_to_kelvin(float celsius) {
     return celsius + 273.15;
 }
 
-// convert kelvin to celsius
+//convert kelvin to celsius
 float kelvin_to_celsius(float kelvin) {
     return kelvin - 273.15;
 }
 
-// categorize the temperature and give advisory
+//categorize the temperature and give advisory
 void categorize_temperature(float celsius) {
     printf("Category: ");
 
