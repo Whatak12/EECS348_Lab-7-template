@@ -30,9 +30,17 @@ float celsius_to_kelvin(float celsius);
 /**
  * @brief Convert temperature in Kelvin to Celsius
  * 
- * @param celsius
+ * @param kelvin
  * @return float
  */
-float kelvin_to_celsius(float celsius);
+float kelvin_to_celsius(float kelvin);
+
+/**
+ * @brief Categorize temperature based on Celsius and give advisory
+ * 
+ * @param celsius
+ */
+void categorize_temperature(float celsius);
 
 #endif /* __REPORT_H__ */
+
