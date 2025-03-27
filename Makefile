@@ -1,5 +1,7 @@
 CC := gcc
 
+all: football.exe temperature.exe
+
 football.exe: football_main.o football.o
 	$(CC) -o football.exe football_main.o football.o
 
@@ -20,4 +22,3 @@ temperature.o: temperature.c temperature.h
 
 clean:
 	rm -f *.o *.exe
-
