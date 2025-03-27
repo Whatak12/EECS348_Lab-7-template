@@ -22,7 +22,7 @@ int main() {
             print_combinations(score);                   // print all combinations
         }
 
-        printf("\n");                                    // print newline for spacing
+        printf("\n ");                                    // print newline for spacing
     }
 
     return 0;  // return success
